@@ -1,11 +1,12 @@
 import React from "react";
+import styles from './CourseCard.module.css'
 
 const CourseCard = () => {
   return (
     <>
       <div  class="container">
         <div class="row p-3">
-          <div style={{position: "relative", right: '4px', backgroundColor: "#efeeee"}} class="col-md-6 border-top border-success d-flex">
+          <div class={`${styles.column} col-md-6 border-top border-success d-flex`}>
             <div> 
               <img style={{visibility: 'visible', animationDuration: '1.5s', animationDelay: '1s', animationName: 'fadeIn'}} class="animate__animated animate__fadeIn wow" data-wow-duration="5s" data-wow-delay="0s" src="/images/one.png" alt="" />
             </div>
@@ -22,7 +23,7 @@ const CourseCard = () => {
               </div>
             </div>
           </div>
-          <div style={{position: "relative", left: '4px', backgroundColor: "#efeeee"}} class="col-md-6 border-top border-success d-flex">
+          <div class={`${styles.column1} col-md-6 border-top border-success d-flex`}>
             <div> 
               <img style={{visibility: 'visible', animationDuration: '1.5s', animationDelay: '1s'}} class="animate__animated animate__fadeIn wow" data-wow-duration="5s" data-wow-delay="0s" src="/images/one.png" alt="" />
             </div>
@@ -40,7 +41,7 @@ const CourseCard = () => {
           </div>
         </div>
         <div class="row p-3">
-        <div style={{position: "relative", right: '4px', backgroundColor: "#efeeee"}} class="col-md-6 border-top border-success d-flex">
+        <div class={`${styles.column2} col-md-6 border-top border-success d-flex`}>
             <div> 
               <img style={{visibility: 'visible', animationDuration: '1.5s', animationDelay: '1s'}} class="animate__animated animate__fadeIn wow" data-wow-duration="5s" data-wow-delay="0s" src="/images/one.png" alt="" />
             </div>
@@ -56,7 +57,7 @@ const CourseCard = () => {
               </div>
             </div>
           </div>
-          <div style={{position: "relative", left: '4px', backgroundColor: "#efeeee"}} class="col-md-6 border-top border-success d-flex">
+          <div class={`${styles.column3} col-md-6 border-top border-success d-flex`}>
             <div> 
               <img style={{visibility: 'visible', animationDuration: '1.5s', animationDelay: '1s'}} class="animate__animated animate__fadeIn wow" data-wow-duration="5s" data-wow-delay="0s" src="/images/one.png" alt="" />
             </div>
@@ -75,7 +76,7 @@ const CourseCard = () => {
           </div>
         </div>
         <div style={{textAlign:'center', display: 'flex', justifyContent: 'center'}}>
-            <p style={{width: '30%', padding: '12px'}} class="border border-primary">Download Brochure</p>
+            <p class={`${styles.download} border border-primary`}>Download Brochure</p>
         </div>
       </div>
     </>

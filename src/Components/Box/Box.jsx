@@ -8,6 +8,9 @@ const Box = () => {
           <img style={{margin: '0px auto'}} src="/images/login-portal.gif" alt="" />
           <img className={`${styles.box} border border-primary p-3`} src="/images/star.gif" alt="" />
           <h3 style={{ position: 'relative', top:'20px', margin: '0px auto', textAlign: 'center'}}>Massmatic Cyber Forensic Courses</h3>
+          <div class={styles.line}>
+            <div class={styles.circle}></div>
+          </div>
     </div>
     </>
   )

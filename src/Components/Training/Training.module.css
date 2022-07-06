@@ -1,15 +1,10 @@
-.box{
-    margin: 0px auto;
-    width: 60%;
-}
-
 .line{
-    width: 30%;
+    width: 25%;
     height: 1px;
     background-color: #000;
     margin: 10px auto;
     position: relative;
-    top: 35px;
+    top: 10px;
 }
 
 .circle{
@@ -23,11 +18,8 @@
     margin: 0px auto;
 }
 
-@media screen and (max-width: 768px){
-    .box{
-        width: 100%;
-    }
 
+@media screen and (max-width: 768px){
     .line{
         width: 50%;
     }

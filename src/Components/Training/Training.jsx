@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './Training.module.css'
 
 const Training = () => {
   return (
@@ -8,6 +9,9 @@ const Training = () => {
         <div class="row">
           <div style={{marginTop: '20px'}} class="col-md-12 text-center">
             <h3>Online & Offline Courses</h3>
+            <div class={styles.line}>
+            <div class={styles.circle}></div>
+          </div>
           </div>
         </div>
         <div style={{position: 'relative', top: '20px'}} class="row">

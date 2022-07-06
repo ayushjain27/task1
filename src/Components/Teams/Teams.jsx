@@ -1,18 +1,23 @@
 import React from "react";
+import styles from './Teams.module.css'
 
 const Teams = () => {
   return (
     <>
       <div
-        style={{ position: "relative", top: "30px" }}
-        className="container d-flex justify-content-center"
-      >
+        style={{ position: "relative", top: "50px" }}
+        className="container d-flex justify-content-center">
         <div class="container">
-          {/* <div class="row">
-            <div class="col-md-12">One of three columns</div>
-          </div> */}
           <div class="row">
-          <div class="col-md-3">
+            <div style={{marginBottom: '12px'}} class="col-md-12">
+              <h3 class="d-flex justify-content-center">Our Team</h3>
+              <div class={styles.line}>
+                <div class={styles.circle}></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+          <div class={`${styles.card} col-md-3`}>
               <div style={{ backgroundColor: "#efeeee" }} class="card">
                 <img
                   src="/images/Amit.jpg"
@@ -22,7 +27,7 @@ const Teams = () => {
                 <div class="card-body text-center">
                   <h5 class="card-title">Amit Malhotra</h5>
                   <a
-                    style={{ textDecoration: "none", marginTop: "4px" }}
+                    style={{ textDecoration: "none", marginTop: "4px", fontSize: '12px' }}
                     href=""
                   >
                     CEO
@@ -41,7 +46,7 @@ const Teams = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class={`${styles.card1} col-md-3`}>
               <div style={{ backgroundColor: "#efeeee" }} class="card">
                 <img
                   src="/images/Vishwanath.jpg"
@@ -70,7 +75,7 @@ const Teams = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class={`${styles.card2} col-md-3`}>
               <div style={{ backgroundColor: "#efeeee" }} class="card">
                 <img
                   src="/images/Harpreet.jpg"
@@ -80,7 +85,7 @@ const Teams = () => {
                 <div class="card-body text-center">
                   <h5 class="card-title">Harpreet Singh</h5>
                   <a
-                    style={{ textDecoration: "none", marginTop: "4px" }}
+                    style={{ textDecoration: "none", marginTop: "4px", fontSize: '12px' }}
                     href=""
                   >
                     MANAGING DIRECTOR (PUNJAB)
@@ -101,13 +106,13 @@ const Teams = () => {
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class={`${styles.card3} col-md-3`}>
               <div style={{ backgroundColor: "#efeeee" }} class="card">
                 <img src="/images/vicky.jpg" class="card-img-top" alt="..." />
                 <div class="card-body text-center">
                   <h5 class="card-title">Vicky Mishra</h5>
                   <a
-                    style={{ textDecoration: "none", marginTop: "4px" }}
+                    style={{ textDecoration: "none", marginTop: "4px", fontSize: '12px' }}
                     href=""
                   >
                     IT HEAD

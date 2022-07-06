@@ -3,9 +3,9 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Carousel from './Components/Carousel';
 import Box from './Components/Box/Box';
-import CourseCard from './Components/CourseCard';
-import Training from './Components/Training';
-import Teams from './Components/Teams';
+import CourseCard from './Components/CourseCard/CourseCard';
+import Training from './Components/Training/Training';
+import Teams from './Components/Teams/Teams';
 
 function App() {
   return (

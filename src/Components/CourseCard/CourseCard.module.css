@@ -1,0 +1,61 @@
+.column{
+    position: relative;
+    right: 4px; 
+    background-color: #efeeee;
+}
+
+.column1{
+    position: relative;
+    left: 4px; 
+    background-color: #efeeee;
+}
+
+.column2{
+    position: relative;
+    right: 4px; 
+    background-color: #efeeee;
+}
+
+.column3{
+    position: relative;
+    left: 4px; 
+    background-color: #efeeee;
+}
+
+.download{
+    width: 30%;
+    padding: 12px;
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+    .column{
+        position: relative;
+        right: 0px; 
+        bottom: 6px;
+    }
+    
+    .column1{
+        position: relative;
+        left: 0px; 
+        top: 6px;
+    }
+    
+    .column2{
+        position: relative;
+        right: 0px; 
+        bottom: 6px;
+    }
+    
+    .column3{
+        position: relative;
+        left: 0px; 
+        top: 6px;
+    }
+    
+    .download{
+        width: 100%;
+        padding: 12px;
+    }
+    
+}
